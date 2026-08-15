@@ -2,7 +2,6 @@
 
 #EXTM3U
 
-
 #EXTM3U
 #EXTINF:-1 group-logo="https://i.pinimg.com/236x/f8/9a/f2/f89af263da81ca8ca43af3e3ec4f4bf4.jpg" group-title="🔴⚪NASIONAL"
 
@@ -29,19 +28,17 @@ https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/mnc.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/2b/77/d7/2b77d79d4a511b3ba7ada19a775426f8.jpg" group-title="🔴⚪NASIONAL", TRANSTV SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0, AppleWebKit/537.36 (KHTML, like Gecko), Chrome/[Version], and Safari/537.36
-https://video.detik.com/transtv/smil:transtv.smil/chunklist_w2114898498_b744100_sleng.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/chunklist_kamiselaluada_b744100_sleng.m3u8
+https://video.detik.com/transtv/smil:transtv.smil/chunklist_w2114898498_b744100_sleng.m3u8
+
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/6f/02/9a/6f029a90f14d30427266dcd5e380130d.jpg",TRANS7 SD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0, AppleWebKit/537.36 (KHTML, like Gecko), Chrome/[Version], and Safari/537.36
-https://video.detik.com/trans7/smil:trans7.smil/chunklist_w577694934_b744100_sleng.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://stream.digitalbroadcast.id/lb0/8b2ccc69-a926-436b-bbc0-fb0822062ac4/index.fmp4.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w577694934_b744100_sleng.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/2b/77/d7/2b77d79d4a511b3ba7ada19a775426f8.jpg" group-title="🔴⚪NASIONAL", TRANSTV HD
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=6
-https://bintangstreaming.my.id/rcti_pro/index.mpd?id=6
+https://livestream.transtv.co.id/stream/live/ttv.m3u8
 
 #https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Trtv.m3u8
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/6f/02/9a/6f029a90f14d30427266dcd5e380130d.jpg",TRANS7 HD
@@ -58,6 +55,9 @@ https://stream.digitalbroadcast.id/lb0/8b2ccc69-a926-436b-bbc0-fb0822062ac4/inde
 https://tvratu.my.id/vid/index.mpd?id=204&type=dash
 
 #EXTINF:-1 tvg-id="SCTV.Id" tvg-logo="https://i.pinimg.com/236x/3c/bc/56/3cbc565c444cca121ef3bff1bb0a53d0.jpg" group-title="🔴⚪NASIONAL",SCTV SD
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
 https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Sct.m3u8
 #http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64
 
@@ -69,9 +69,7 @@ https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Sct.m3u8
 https://bintangstreaming.my.id/forsat23/pidio.php/.mpd?id=205
 
 #EXTINF:-1 tvg-id="Indosiar.Id" tvg-logo="https://i.pinimg.com/236x/86/05/da/8605da0991dab4ae9664ea2a3bb981b1.jpg" group-title="🔴⚪NASIONAL",INDOSIAR SD
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
+https://cdnbal1.indihometv.com/atm/DASH/indosiar/manifest.mpd
 https://beetv.my.id/stream/vd.m3u8?ch=indosiar
 https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Indos.m3u8
 #http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
@@ -91,9 +89,10 @@ http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
 https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Antv.m3u8
 
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/4b/75/e4/4b75e42da25fdea747d91db85ac392b6.jpg", GLOBALTV
+https://cdnbal1.indihometv.com/atm/DASH/globaltv/manifest.mpd
 https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Glob.m3u8
 
-#EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/4b/75/e4/4b75e42da25fdea747d91db85ac392b6.jpg", GLOBALTV HF
+#EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/4b/75/e4/4b75e42da25fdea747d91db85ac392b6.jpg", GLOBALTV HD
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=gtv
@@ -117,10 +116,8 @@ https://cdnbal1.indihometv.com/atm/DASH/inews/manifest.mpd
 #https://ayo.maling.pl/Vision/index.mpd?id=4
 
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-id="moji.id" tvg-logo="https://i.pinimg.com/236x/a1/fd/2b/a1fd2bae03716b1d10f6eaef11f0e193.jpg",MOJITV HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=22bd0016090143f795a275629a6e7a0a:cae11accebe3ca7535141d35f4d41a1d
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://op-group1-densxvisionhd-1.dens.tv/h/h207/02.m3u8
 https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/Moj.m3u8
 
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-id="moji.id" tvg-logo="https://i.pinimg.com/236x/a1/fd/2b/a1fd2bae03716b1d10f6eaef11f0e193.jpg",MOJITV
@@ -169,15 +166,18 @@ https://nextgenz.my.id/event/pidio/play.mpd?id=777&type=dash
 #EXTINF:-1 tvg-id="BeritaSatu.Id" tvg-logo="https://i.pinimg.com/236x/a1/fe/9b/a1fe9bd646cdcb8fb42b012fa8169301.jpg" group-title="🔴⚪NASIONAL",BERITA SATU
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
-https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8
+https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 
 #EXTINF:-1 tvg-id="BeritaSatu.Id" tvg-logo="https://i.pinimg.com/236x/a1/fe/9b/a1fe9bd646cdcb8fb42b012fa8169301.jpg" group-title="🔴⚪NASIONAL",BTV
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=15
-https://bintangstreaming.my.id/rcti_pro/index.mpd?id=15
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.license_key=47d8c564b0eb4d6ba83f7b155c827024:098f10e1734d00c0177bae1236db60fc
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/3112ca4fbc2642e79ecaf9b2b0999e07/index.mpd
 #https://raw.githubusercontent.com/Cutsiffa/pl/refs/heads/main/Loc/beri1.m3u8
 
 #EXTINF:-1 group-title="🔴⚪NASIONAL" tvg-logo="https://i.pinimg.com/236x/63/02/fa/6302faf7b7e445e100e3aff2d78286ba.jpg", TVRI NASIONAL
